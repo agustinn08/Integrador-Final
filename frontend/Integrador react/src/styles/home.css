@@ -1,0 +1,77 @@
+.main-welcome {
+  background-image: url("https://preview.redd.it/transparent-background-gamer-gumball-i-redrew-gamer-gumball-v0-n7gq15gcvqh91.png?auto=webp&s=e301eb8d298064b8917ca223fe0ddfdd2bca30c4");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+}
+
+.textos-h1 {
+  font-family: 'Orbitron', 'Franklin Gothic Medium', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.text-pink {
+  color: palevioletred;
+}
+
+.text-green {
+  color: rgb(0, 105, 23);
+}
+
+.main-p {
+  font-family: 'Rajdhani', Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #000000;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.benefit-card {
+  border-radius: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-1 {
+  background: #00ffe0;
+}
+
+.benefit-2 {
+  background: #ff4dff;
+}
+
+.benefit-3 {
+  background: #ff9f00;
+}
+
+.benefit-4 {
+  background: #8c00ff;
+}
+
+.benefit-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 180, 216, 0.3);
+}
+
+
+
+.main-products {
+  text-align: center;
+}
+
+.main-products .row {
+  justify-content: center;
+}
+
+.benefits-section {
+  text-align: center;
+}
+
+.benefits-section .row {
+  justify-content: center;
+}

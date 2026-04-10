@@ -1,0 +1,83 @@
+.product-detail-card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  border: 1px solid #e0e0e0;
+}
+
+.product-detail-img-wrapper {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 350px;
+}
+
+.product-detail-image {
+  width: 100%;
+  height: 100%;
+  max-height: 480px;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.product-price {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.price-label {
+  font-size: 0.9rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.price-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #198754;
+}
+
+.main-p {
+  font-family: 'Rajdhani', Arial, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .product-detail-img-wrapper {
+    min-height: 250px;
+  }
+
+  .product-detail-image {
+    max-height: 280px;
+  }
+
+  .price-value {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-detail-card {
+    margin: 0 10px;
+  }
+
+  .product-detail-card .col-md-7 {
+    padding: 20px !important;
+  }
+
+  .product-detail-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .price-value {
+    font-size: 1.4rem;
+  }
+}
+
+.main-products .row {
+  justify-content: center;
+}

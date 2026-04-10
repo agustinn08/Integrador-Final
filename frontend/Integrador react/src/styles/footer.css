@@ -1,0 +1,10 @@
+.main-footer {
+  background-color: #121212;
+  color: white;
+  margin-top: auto;
+}
+
+.logo-footer {
+  mix-blend-mode: multiply;
+  background: transparent;
+}

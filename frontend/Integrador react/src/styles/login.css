@@ -1,0 +1,26 @@
+.login-container {
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  border: 3px solid #00ffe0;
+  border-radius: 15px;
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.login-container h1 {
+  color: #ff4dff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-container .form-control {
+  background-color: #1a1a1a;
+  border: 2px solid #00ffe0;
+  color: #fff;
+}
+
+.login-container .form-label {
+  color: #00ffe0;
+}
